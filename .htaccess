@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ankitesharora.me [NC,OR]
+RewriteCond %{HTTP_HOST} ^ankitesharora.me [NC]
+RewriteRule ^(.*)$ https://www.behance.ne/ankitesharora [L,R=301,NC]
